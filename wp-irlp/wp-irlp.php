@@ -2,14 +2,12 @@
 /*
 Plugin Name: WP-IRLP
 Plugin URI: http://www.K0RET.com/WP-IRLP
-Description: A simple hello world wordpress plugin
+Description: This plugin has a set of tools for IRLP repeaters. Right now, it just has a widget that displays an IRLP repeater's status.
 Version: 0.1
 Author: Ryan Turner
 Author URI: http://www.K0RET.com/
 License: GPLv2
 */
-/* This calls hello_world() function when wordpress initializes.*/
-/* Note that the hello_world doesnt have brackets. */
 include('node.php');
 
 class wp_my_plugin extends WP_Widget {
